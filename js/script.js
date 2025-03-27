@@ -1,5 +1,5 @@
 
-fetch("http://localhost:3000/animatedMovies")
+fetch("http://localhost:3000/animated movies")
   .then(response => response.json())
   .then(displayMovies);
 
@@ -25,3 +25,31 @@ fetch("http://localhost:3000/animatedMovies")
   document.getElementById("animatedMovie-genre").textContent = movie.genre.join(", ");
   document.getElementById("animatedMovie-rating").textContent = movie.rating;
 }
+
+document.getElementById("animatedMovie-for").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+  
+   
+    const newMovie = {
+      title: document.getElementById("title").value,
+      plot: document.getElementById("plot").value,
+      image: document.getElementById("image").value,
+      rating: parseFloat(document.getElementById("rating").value), 
+      genre: document.getElementById("genre").value.split(", ") 
+    };
+  
+    
+    fetch("http://localhost:3000/animatedMovies", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(newMovie)
+    })
+    .then(response => response.json())
+    .then(movie => {
+      document.getElementById("animatedMovie-for").reset(); 
+      return fetch("http://localhost:3000/animatedMovies"); 
+    })
+    .then(response => response.json())
+    .then(displayMovies);
+  });
+  
