@@ -9,6 +9,11 @@ fetch("http://localhost:3000/animatedMovies")
 
     movies.forEach(movie=>{
         const img = document.createElement("img");
-        img.src= movie.image
+        img.src= movie.image;
+        img.alt =movie.title;
+
+        img.addEventListener("click",()=>showMovieDetails(movie));
+
+        container.appendChild(img);
     })
   }
