@@ -1,5 +1,5 @@
 
-fetch("http://localhost:3000/animatedMovies")
+fetch("http://localhost:4000/animatedMovies")
   .then(response => response.json())
   .then(displayMovies);
 
@@ -39,7 +39,7 @@ document.getElementById("animatedMovie-form").addEventListener("submit", functio
     };
   
     
-    fetch("http://localhost:3000/animatedMovies", {
+    fetch("http://localhost:4000/animatedMovies", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newMovie)
