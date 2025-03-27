@@ -50,3 +50,15 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+
+input, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
