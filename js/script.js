@@ -102,6 +102,9 @@ let animatedMovies = [  {
 }
 ]
 
+let recomendations = document.getElementById("movie-recomendations");
+let form = document.getElementById("movie-form")
+
 function displayAnimatedMovies(){
     menubar.innerHTML ="";
     animatedMovies.forEach((animatedMovie) => {
@@ -116,6 +119,3 @@ function displayAnimatedMovies(){
 function handleclick(animatedMovie) {
     document.get
 }
-
-
-

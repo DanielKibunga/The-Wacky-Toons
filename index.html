@@ -1,53 +1,55 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Wacky Toons</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 </head>
-<header>THE WACKY TOONS</header>
-
 <body>
 
-    <nav id="navigation-bar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <h1>THE WACKY TOONS</h1>
+    </header>
 
-    <h1>
-        Home
-    
+    <h2>Home</h2>
 
-    <div id="images">
-        <img src="images/4aaed223-12d4-4768-8b0b-7defbfe962f7.jpeg" alt="Young-Justice">
-
-        <img src="images/5d500398-54ab-483c-8991-968658ab6fb9.jpeg" alt="Batman-Hush">
-
-        <img src="images/56f51b47-e547-481e-a7e7-7a45edb3df6e.jpeg" alt="Son-Of-Batman">
-
-        <img src="images/Batman v Superman_ _Dawn Of Justice.jpeg" alt="Batman-Ninja">
-
-        <img src="images/Kung fu panda 2.jpeg" alt="Kungfu-panda">
-
-        <img src="images/Mira todas las pelis que habrá en Warner Channel en mayo.jpeg" alt="Ratatouille">
-
-        <img src="images/劇場版「鬼滅の刃」「2020_HD」完全版.jpeg" alt="Demon-Slayer-Mugentrain">
-
-        <img src="images/f1fd04ae-0f01-4ac0-8965-44a8788b4eed.jpeg" alt="Soul-Of-The-Dragon">
-
-        <img src="images/d67f2f97-0b82-4299-adb5-f3beecbad617.jpeg" alt="Wish">
-
-        <img src="images/00a486ce-d4c5-4a83-8718-1490d6f31063.jpeg" alt="Big-Hero-Six">
-
+    <!-- Movie Thumbnails for Selection -->
+    <div id="movie-recommendation">
+        <img class="movie-thumbnail" src="images/4aaed223-12d4-4768-8b0b-7defbfe962f7.jpeg" data-id="3" alt="Young Justice">
+        <img class="movie-thumbnail" src="images/5d500398-54ab-483c-8991-968658ab6fb9.jpeg" data-id="2" alt="Batman Hush">
+        <img class="movie-thumbnail" src="images/56f51b47-e547-481e-a7e7-7a45edb3df6e.jpeg" data-id="1" alt="Son Of Batman">
+        <img class="movie-thumbnail" src="images/Batman v Superman_ _Dawn Of Justice.jpeg" data-id="10" alt="Batman Ninja">
+        <img class="movie-thumbnail" src="images/Kung fu panda 2.jpeg" data-id="8" alt="Kung Fu Panda 2">
+        <img class="movie-thumbnail" src="images/Mira todas las pelis que habrá en Warner Channel en mayo.jpeg" data-id="7" alt="Ratatouille">
+        <img class="movie-thumbnail" src="images/劇場版「鬼滅の刃」「2020_HD」完全版.jpeg" data-id="9" alt="Demon Slayer: Mugen Train">
+        <img class="movie-thumbnail" src="images/f1fd04ae-0f01-4ac0-8965-44a8788b4eed.jpeg" data-id="4" alt="Batman: Soul of the Dragon">
+        <img class="movie-thumbnail" src="images/d67f2f97-0b82-4299-adb5-f3beecbad617.jpeg" data-id="6" alt="Wish">
+        <img class="movie-thumbnail" src="images/00a486ce-d4c5-4a83-8718-1490d6f31063.jpeg" data-id="5" alt="Big Hero 6">
     </div>
 
-</h1>
-<h1>About</h1>
+    <!-- Movie Details Section -->
+    <div id="movie-details">
+        <img id="animatedMovie-image" src="" alt="Movie Image">
+        <h2 id="animatedMovie-title">Select a movie</h2>
+        <p><strong>Plot:</strong> <span id="animatedMovie-plot"></span></p>
+        <p><strong>Genre:</strong> <span id="animatedMovie-genre"></span></p>
+        <p><strong>Rating:</strong> <span id="animatedMovie-rating"></span></p>
+    </div>
 
+    
+    <h2>
+        Add New Movie
+    </h2>
+    <form id="animatedMovie-form">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="plot" placeholder="Plot" required>
+        <input type="url" id="image" placeholder="Image URL" required>
+        <input type="number" id="rating" placeholder="Rating (1-5)" min="1" max="5" required>
+        <input type="text" id="genre" placeholder="Genre" required>
+        <button type="submit">Add Movie</button>
+    </form>
+
+    <script src="js/script.js" defer></script>
 </body>
 </html>
