@@ -26,7 +26,7 @@ fetch("http://localhost:3000/animated movies")
   document.getElementById("animatedMovie-rating").textContent = movie.rating;
 }
 
-document.getElementById("animatedMovie-for").addEventListener("submit", function(event) {
+document.getElementById("animatedMovie-form").addEventListener("submit", function(event) {
     event.preventDefault(); 
   
    
