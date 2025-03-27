@@ -1,5 +1,5 @@
 
-fetch("http://localhost:3000/animated movies")
+fetch("http://localhost:3000/animatedMovies")
   .then(response => response.json())
   .then(displayMovies);
 
