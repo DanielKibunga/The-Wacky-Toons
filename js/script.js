@@ -17,3 +17,11 @@ fetch("http://localhost:3000/animatedMovies")
         container.appendChild(img);
     })
   }
+
+  function showMovieDetails(movie){
+    document.getElementById("animatedMovie-image").src = movie.image;
+  document.getElementById("animatedMovie-title").textContent = movie.title;
+  document.getElementById("animatedMovie-plot").textContent = movie.plot;
+  document.getElementById("animatedMovie-genre").textContent = movie.genre.join(", ");
+  document.getElementById("animatedMovie-rating").textContent = movie.rating;
+}
