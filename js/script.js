@@ -9,7 +9,7 @@ fetch("http://localhost:3000/animated movies")
 
     movies.forEach(movie=>{
         const img = document.createElement("img");
-        img.src= movie.image;
+        img.src= movie.img;
         img.alt =movie.title;
 
         img.addEventListener("click",()=>showMovieDetails(movie));
@@ -19,7 +19,7 @@ fetch("http://localhost:3000/animated movies")
   }
 
   function showMovieDetails(movie){
-    document.getElementById("animatedMovie-image").src = movie.image;
+    document.getElementById("animatedMovie-image").src = movie.img;
   document.getElementById("animatedMovie-title").textContent = movie.title;
   document.getElementById("animatedMovie-plot").textContent = movie.plot;
   document.getElementById("animatedMovie-genre").textContent = movie.genre.join(", ");
