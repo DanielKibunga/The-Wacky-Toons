@@ -5,3 +5,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#movie-recommendation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#movie-recommendation img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
