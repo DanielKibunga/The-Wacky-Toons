@@ -1,7 +1,7 @@
 {
   "animatedMovies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Son of Batman",
       "year": 2014,
       "genre": [
@@ -14,7 +14,7 @@
       "img": "images/56f51b47-e547-481e-a7e7-7a45edb3df6e.jpeg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Batman Hush",
       "year": 2019,
       "genre": [
@@ -27,7 +27,7 @@
       "img": "images/5d500398-54ab-483c-8991-968658ab6fb9.jpeg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Young Justice",
       "year": 2010,
       "genre": [
@@ -40,7 +40,7 @@
       "img": "images/4aaed223-12d4-4768-8b0b-7defbfe962f7.jpeg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Batman: Soul of the Dragon",
       "year": 2021,
       "genre": [
@@ -53,7 +53,7 @@
       "img": "images/f1fd04ae-0f01-4ac0-8965-44a8788b4eed.jpeg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Big Hero 6",
       "plot": "A young robotics prodigy, Hiro Hamada, teams up with his inflatable healthcare companion, Baymax, and friends to stop a mysterious villain in San Fransokyo.",
       "year": 2014,
@@ -63,10 +63,10 @@
         "Adventure"
       ],
       "rating": "PG",
-      "img": "images/4aaed223-12d4-4768-8b0b-7defbfe962f7.jpeg"
+      "img": "images/00a486ce-d4c5-4a83-8718-1490d6f31063.jpeg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Wish",
       "plot": "A young girl named Asha makes a heartfelt wish upon a star, only to have it answered in an unexpected way that changes her world forever.",
       "year": 2023,
@@ -79,7 +79,7 @@
       "img": "images/d67f2f97-0b82-4299-adb5-f3beecbad617.jpeg"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Ratatouille",
       "plot": "A rat named Remy dreams of becoming a great chef and tries to achieve his goal by forming an unlikely alliance with a young kitchen worker in a famous Paris restaurant.",
       "year": 2007,
@@ -92,7 +92,7 @@
       "img": "images/Mira todas las pelis que habrá en Warner Channel en mayo.jpeg"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Kung Fu Panda 2",
       "plot": "Po and the Furious Five set out to defeat a new enemy, Lord Shen, who has a powerful weapon that threatens to conquer China and destroy kung fu.",
       "year": 2011,
@@ -105,7 +105,7 @@
       "img": "images/Kung fu panda 2.jpeg"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Demon Slayer: Mugen Train",
       "plot": "Tanjiro and his friends join the Flame Hashira, Kyojuro Rengoku, to investigate a series of disappearances aboard the Mugen Train, only to face a powerful demon threat.",
       "year": 2020,
@@ -118,7 +118,7 @@
       "img": "images/劇場版「鬼滅の刃」「2020_HD」完全版.jpeg"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Batman Ninja",
       "plot": "Batman and his allies are transported to feudal Japan, where they must battle the Joker and other villains who have become feudal lords.",
       "year": 2018,
@@ -141,7 +141,16 @@
         "Fantasy",
         "Adventure"
       ]
+    },
+    {
+      "id": "0802",
+      "title": "MBAILEE MBAILEE MBAILEE",
+      "plot": "very good movie",
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUUExMWFhUXGR4aGBgYGBobIRgiGx4aGx0fHyAgHSggGholHRoaITEiJSkrLi4uGh8zODMtNygtLisBCgoKDg0OGxAQGzUmICYyLy0yMi0yLS0yMC8xLS0vNS0tLSsvLzYtKy8tMC0vLS8tLS0tLS0tLS8tLy0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAFBgMEBwACAQj/xABFEAACAQIEAwUECAQFAgYDAQABAhEAAwQSITEFQVEGEyJhcTKBkaEHFEJSYrHB0SNy4fAVM4KS8aKyFiRTY8LSF0PyJf/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAQIFAAb/xAAyEQACAQIEBAQFBAMBAQAAAAABAgADEQQSITFBUWHwEyJxkQWBobHRFDLB4TNC8SNS/9oADAMBAAIRAxEAPwAni3MeJQRsNJy7kQDpqetLXEuEzJLAgazuPFHMevyp1xNkEARz3/Kf750Kx2FhdQBAA9fKjQcQcdgspPUaHSPl1oc2F605YnASJj5UNfhhO1VKybxbGH8q9DD+tGxw7++tSWeEXHYKilidgBJNRaTeAxZ8iaLcH7OX8ST3SSg9p28KL6sdPcJNNeF4BYwkNi2z3NxZQ6D+dhv/ACj48qq8U4+93wrCWwIVF8KgDkFGgoNSsqwqUy0+WeA4HDa3WbFXPuqSlse/2m+Kjyqe1xnNbuMtpLdu2MqrbVVAJGpPMnQa60c7N8Kw9t7QxLBr95SVtOuZVG4z+cddNYgxVDtDwxbVy8iWSiFtFVm1OXWB90mIHyrLxdY1Ey8CbTQwlMI9+Qmf3uIXDuWb1JP5mr2Fw90gG4uQMJXYkjblt76IWOAXRctq9l0zEeJlI0577+6vnH8WGxBVdkAVQP73Nc1c5ss5aIK5hPdnBCQJJJ0AESfkfhTXwfsBibnidlsr+",
+      "rating": null,
+      "genre": [
+        "animations"
+      ]
     }
-    
   ]
 }
