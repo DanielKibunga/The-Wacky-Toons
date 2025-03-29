@@ -1,5 +1,6 @@
+const API_URL = "https://the-wacky-toons-server.vercel.app/animatedMovies";
 
-fetch("http://localhost:3000/animatedMovies")
+fetch(API_URL)
   .then(response => response.json())
   .then(displayMovies);
 
@@ -44,7 +45,7 @@ document.getElementById("animatedMovie-form").addEventListener("submit", functio
     genre: document.getElementById("genre").value.split(", ") 
   };
 
-  fetch("http://localhost:3000/animatedMovies", {
+  fetch(API_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(newMovie)
@@ -52,17 +53,17 @@ document.getElementById("animatedMovie-form").addEventListener("submit", functio
   .then(response => response.json())
   .then(() => {
     document.getElementById("animatedMovie-form").reset(); 
-    return fetch("http://localhost:3000/animatedMovies");
+    return fetch(API_URL);
   })
   .then(response => response.json())
   .then(displayMovies);
 });
 
 function deleteMovie(id) {
-  fetch(`http://localhost:3000/animatedMovies/${id}`, {
+  fetch(`${API_URL}/${id}`, {
     method: "DELETE"
   })
-  .then(() => fetch("http://localhost:3000/animatedMovies"))
+  .then(() => fetch(API_URL))
   .then(response => response.json())
   .then(displayMovies);
 }

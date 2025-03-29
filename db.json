@@ -129,28 +129,6 @@
       ],
       "rating": "PG-13",
       "img": "images/Batman v Superman_ _Dawn Of Justice.jpeg"
-    },
-    {
-      "id": "72a7",
-      "title": "kung fu panda",
-      "plot": "An old frenemy? of master Ugwe comes back from the spirit realm leaving destruction in his path in search for Po",
-      "image": "https://www.google.com/search?sca_esv=48b159fac8a0db64&q=kungfu+panda+3&udm=2&fbs=ABzOT_CWdhQLP1FcmU5B0fn3xuWpA-dk4wpBWOGsoR7DG5zJBkzPWUS0OtApxR2914vrjk7XZXfnfKsaRZouQANLhmphEhFjnPez7qSPLLQhF9yWQ8dLkm_Ol-IEnqfjnL8XQzNqW5K2zwAP7YQmVXybzcVPEp0dqifrVvJg86BQ21ltIP4KtZ6WfX9WxsVdJZ0RKLOPPJphk3o9WsltxNUAhFlpCv3PaQ&sa=X&ved=2ahUKEwja25_y9KmMAxUoSTABHUXSEgwQtKgLegQIGBAB&biw=1536&bih=745&dpr=1#vhid=BCRLbHMjt--KhM&vssid=mosaic",
-      "rating": null,
-      "genre": [
-        "Animation",
-        "Fantasy",
-        "Adventure"
-      ]
-    },
-    {
-      "id": "0802",
-      "title": "MBAILEE MBAILEE MBAILEE",
-      "plot": "very good movie",
-      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUUExMWFhUXGR4aGBgYGBobIRgiGx4aGx0fHyAgHSggGholHRoaITEiJSkrLi4uGh8zODMtNygtLisBCgoKDg0OGxAQGzUmICYyLy0yMi0yLS0yMC8xLS0vNS0tLSsvLzYtKy8tMC0vLS8tLS0tLS0tLS8tLy0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAFBgMEBwACAQj/xABFEAACAQIEAwUECAQFAgYDAQABAhEAAwQSITEFQVEGEyJhcTKBkaEHFEJSYrHB0SNy4fAVM4KS8aKyFiRTY8LSF0PyJf/EABoBAAIDAQEAAAAAAAAAAAAAAAMEAQIFAAb/xAAyEQACAQIEBAQFBAMBAQAAAAABAgADEQQSITFBUWHwEyJxkQWBobHRFDLB4TNC8SNS/9oADAMBAAIRAxEAPwAni3MeJQRsNJy7kQDpqetLXEuEzJLAgazuPFHMevyp1xNkEARz3/Kf750Kx2FhdQBAA9fKjQcQcdgspPUaHSPl1oc2F605YnASJj5UNfhhO1VKybxbGH8q9DD+tGxw7++tSWeEXHYKilidgBJNRaTeAxZ8iaLcH7OX8ST3SSg9p28KL6sdPcJNNeF4BYwkNi2z3NxZQ6D+dhv/ACj48qq8U4+93wrCWwIVF8KgDkFGgoNSsqwqUy0+WeA4HDa3WbFXPuqSlse/2m+Kjyqe1xnNbuMtpLdu2MqrbVVAJGpPMnQa60c7N8Kw9t7QxLBr95SVtOuZVG4z+cddNYgxVDtDwxbVy8iWSiFtFVm1OXWB90mIHyrLxdY1Ey8CbTQwlMI9+Qmf3uIXDuWb1JP5mr2Fw90gG4uQMJXYkjblt76IWOAXRctq9l0zEeJlI0577+6vnH8WGxBVdkAVQP73Nc1c5ss5aIK5hPdnBCQJJJ0AESfkfhTXwfsBibnidlsr+",
-      "rating": null,
-      "genre": [
-        "animations"
-      ]
     }
   ]
 }
